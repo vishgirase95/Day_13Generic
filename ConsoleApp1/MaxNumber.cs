@@ -6,8 +6,8 @@ namespace ConsoleApp1
 {
     class MaxNumber
     {
-        
-        public static void print(string a, string b, string c)
+
+        public static void print<T>(T a, T b, T c) where T: IComparable
         {
             if((a.CompareTo(b)>0 && a.CompareTo(c) >= 0) ||
                (a.CompareTo(b) >= 0 && a.CompareTo(c) > 0)||
