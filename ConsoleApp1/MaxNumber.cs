@@ -15,6 +15,8 @@ namespace ConsoleApp1
                 Console.WriteLine(item);
             }
 
+            Console.WriteLine($"Max number : {Order[Order.Length-1]}");
+
         }
     }
 }
