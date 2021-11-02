@@ -9,7 +9,7 @@ namespace ConsoleApp1
         {
            
         
-           MaxNumber.print(10,10,10);
+           MaxNumber.print(10.50F,10.30F,10.10F);
           
         }
 

@@ -7,7 +7,7 @@ namespace ConsoleApp1
     class MaxNumber
     {
         
-        public static void print(int a, int b, int c)
+        public static void print(float a, float b, float c)
         {
             if((a.CompareTo(b)>0 && a.CompareTo(c) >= 0) ||
                (a.CompareTo(b) >= 0 && a.CompareTo(c) > 0)||
