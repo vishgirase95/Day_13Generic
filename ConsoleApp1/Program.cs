@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            MaxNumber.print <int>(70,12,60);
+            MaxNumber<string>.print("a", "b", "c");
           
         }
 
