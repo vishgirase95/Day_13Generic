@@ -7,10 +7,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            MaxNumber<string>.print("a", "b", "c");
-          
+
+            int[] NumberOrder = { 10, 50, 30, 40 };
+            string[] StringOrder = {"apple","cat","ball"};
+
+
+            MaxNumber.print(NumberOrder);
+            MaxNumber.print(StringOrder);
+
+
         }
 
-        
+
     }
 }
